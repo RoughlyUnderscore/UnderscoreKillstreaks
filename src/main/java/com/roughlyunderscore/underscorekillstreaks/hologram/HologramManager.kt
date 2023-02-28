@@ -22,10 +22,6 @@ class HologramManager(uks: JavaPlugin) {
 
   private val plugin = findHologramProvider()
 
-  fun allHolograms() : Collection<Hologram> {
-    return DecentHologramsAPI.get().hologramManager.holograms
-  }
-
   private fun createHologram(location: Location, lines: List<String>, name: String) : Hologram {
     return when (plugin) {
       HologramPluginType.DECENT_HOLOGRAMS -> {

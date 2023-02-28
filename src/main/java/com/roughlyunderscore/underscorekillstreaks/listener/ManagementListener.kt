@@ -159,7 +159,6 @@ class ManagementListener() : Listener {
     // killstreak that is higher than the victim's killstreak
     var brokenMilestone: Milestone? = null
     plugin.brokenMilestones.forEach {
-      println("Iterating through $it (streak: ${it.streak})")
       if (it.streak <= streak) {
         brokenMilestone = it
       }

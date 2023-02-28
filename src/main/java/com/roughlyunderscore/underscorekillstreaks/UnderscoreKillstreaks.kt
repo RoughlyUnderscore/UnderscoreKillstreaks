@@ -469,16 +469,10 @@ class UnderscoreKillstreaks : JavaPlugin() {
     val leaderboards = config.getStringList("INTERNAL_FIELD_leaderboards")
     val hologramUpdateInterval = config.getInt("leaderboard.updateFrequency")
 
-    println("All holograms: ${hologramManager.allHolograms()}")
     for (leaderboard in leaderboards) {
-      println("> Leaderboard: $leaderboard")
       val hologram = hologramManager.getHologram(leaderboard) ?: continue
-      println(">> Hologram: $hologram")
       val hologramUpdater = LeaderboardUpdater(hologram, hologramManager)
       addRepeatingTask(hologramUpdater, hologramUpdateInterval)
-      println(">> Started updating every $hologramUpdateInterval ticks (${
-        hologramUpdateInterval / 20
-      } seconds)")
     }
   }
 
