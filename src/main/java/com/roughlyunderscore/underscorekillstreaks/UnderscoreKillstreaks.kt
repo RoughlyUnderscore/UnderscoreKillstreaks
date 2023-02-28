@@ -582,9 +582,6 @@ class UnderscoreKillstreaks : JavaPlugin() {
   }
 }
 
-// fixme Leaderboards don't update after restart
-// fixme For some reason using /uks setstreak so that it overrides the max streak as well breaks the leaderboard
-
 
 // todo API: PlayerKillstreakEndEvent (easy)
 // todo API: PlayerKillstreakMilestoneEvent (easy)
