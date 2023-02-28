@@ -1,0 +1,50 @@
+name: UnderscoreKillstreaks
+version: ${project.version}
+main: com.roughlyunderscore.underscorekillstreaks.UnderscoreKillstreaks
+api-version: 1.17
+authors: [ Roughly_ ]
+depend: [ DecentHolograms, PlaceholderAPI ]
+description: Easy, lightweight, but configurable killstreaks management!
+website: roughlyunderscore.7m.pl
+
+libraries:
+  - 'org.mongodb:mongodb-driver-sync:4.8.2'
+  - 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20'
+
+permissions:
+  uks.streakable:
+    default: true
+  uks.help:
+    default: op
+  uks.reload:
+    default: op
+  uks.serialize:
+    default: op
+  uks.deserialize:
+    default: op
+  uks.streak:
+    default: op
+  uks.maxstreak:
+    default: op
+  uks.setstreak:
+    default: op
+  uks.setmaxstreak:
+    default: op
+  uks.leaderboard:
+    default: op
+  uks.spawnleaderboard:
+    default: op
+  uks.*:
+    default: op
+    children:
+      uks.help: true
+      uks.reload: true
+      uks.serialize: true
+      uks.deserialize: true
+      uks.streak: true
+      uks.maxstreak: true
+      uks.setstreak: true
+      uks.setmaxstreak: true
+      uks.leaderboard: true
+      uks.spawnleaderboard: true
+      uks.streakable: true
