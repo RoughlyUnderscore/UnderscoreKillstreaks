@@ -1,4 +1,4 @@
-# Contributing to UnderscoreEnchants
+# Contributing to UnderscoreKillstreaks
 
 First and foremost, thanks for taking your time to contribute! ❤️
 
