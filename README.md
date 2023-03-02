@@ -1,3 +1,4 @@
+[![wakatime](https://wakatime.com/badge/user/19138aa2-1487-421c-9561-14ecdff554f8/project/40e5d412-183d-4fff-9756-ce18cdaafbd4.svg?style=for-the-badge)](https://wakatime.com/badge/user/19138aa2-1487-421c-9561-14ecdff554f8/project/40e5d412-183d-4fff-9756-ce18cdaafbd4?style=for-the-badge)<br>
 ![Spiget Download Size](https://img.shields.io/spiget/download-size/97385?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/RoughlyUnderscore/UnderscoreKillstreaks?style=for-the-badge)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/RoughlyUnderscore/UnderscoreKillstreaks/codeql.yml?style=for-the-badge)<br>
